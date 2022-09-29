@@ -1,0 +1,38 @@
+[25-Feb-2021 22:50:12 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/vendor/phpmailer/phpmailer/src/PHPMailer.php:2131
+Stack trace:
+#0 /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/vendor/phpmailer/phpmailer/src/PHPMailer.php(1942): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/vendor/phpmailer/phpmailer/src/PHPMailer.php(1631): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 25 F...', 'This is a multi...')
+#2 /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/vendor/phpmailer/phpmailer/src/PHPMailer.php(1464): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/testmail.php(38): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2131
+[26-Feb-2021 08:23:26 UTC] PHP Warning:  filesize(): stat failed for ./upload/tosend1614327801690.png in /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/sendMail.php on line 34
+[26-Feb-2021 08:23:26 UTC] PHP Stack trace:
+[26-Feb-2021 08:23:26 UTC] PHP   1. {main}() /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/sendMail.php:0
+[26-Feb-2021 08:23:26 UTC] PHP   2. filesize() /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/sendMail.php:34
+[26-Feb-2021 08:27:55 UTC] PHP Warning:  filesize(): stat failed for ./upload/tosend1614328070320.png in /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/sendMail.php on line 34
+[26-Feb-2021 08:27:55 UTC] PHP Stack trace:
+[26-Feb-2021 08:27:55 UTC] PHP   1. {main}() /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/sendMail.php:0
+[26-Feb-2021 08:27:55 UTC] PHP   2. filesize() /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/sendMail.php:34
+[26-Feb-2021 08:30:20 UTC] PHP Warning:  filesize(): stat failed for ./upload/tosend1614328215770.png in /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/sendMail.php on line 34
+[26-Feb-2021 08:30:20 UTC] PHP Stack trace:
+[26-Feb-2021 08:30:20 UTC] PHP   1. {main}() /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/sendMail.php:0
+[26-Feb-2021 08:30:20 UTC] PHP   2. filesize() /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/sendMail.php:34
+[26-Feb-2021 15:01:26 UTC] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/sendMail.php on line 35
+[26-Feb-2021 15:01:26 UTC] PHP Stack trace:
+[26-Feb-2021 15:01:26 UTC] PHP   1. {main}() /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/sendMail.php:0
+[26-Feb-2021 15:08:40 UTC] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/sendMail.php on line 35
+[26-Feb-2021 15:08:40 UTC] PHP Stack trace:
+[26-Feb-2021 15:08:40 UTC] PHP   1. {main}() /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/sendMail.php:0
+[27-Feb-2021 10:26:50 UTC] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/sendMail.php on line 44
+[27-Feb-2021 10:29:28 UTC] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/sendMail.php on line 44
+[27-Feb-2021 10:32:14 UTC] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/testmail.php on line 38
+[27-Feb-2021 10:34:16 UTC] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/testmail.php on line 38
+[27-Feb-2021 10:35:20 UTC] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/testmail.php on line 38
+[27-Feb-2021 10:37:34 UTC] PHP Parse error:  syntax error, unexpected 'UTF' (T_STRING) in /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/testmail.php on line 48
+[27-Feb-2021 15:57:02 UTC] PHP Notice:  Undefined index: mail in /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/sendMail.php on line 7
+[27-Feb-2021 15:57:02 UTC] PHP Stack trace:
+[27-Feb-2021 15:57:02 UTC] PHP   1. {main}() /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/sendMail.php:0
+[27-Feb-2021 15:57:02 UTC] PHP Notice:  Undefined index: time in /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/sendMail.php on line 8
+[27-Feb-2021 15:57:02 UTC] PHP Stack trace:
+[27-Feb-2021 15:57:02 UTC] PHP   1. {main}() /home/u301173602/domains/pierre-alain-petrel.com/public_html/CutieBox/sendMail.php:0

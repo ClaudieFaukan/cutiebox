@@ -1,0 +1,7 @@
+{
+    "require": {
+        "treinetic/imageartist": "^1.0",
+        "convertapi/convertapi-php": "^1.5",
+        "phpmailer/phpmailer": "^6.3"
+    }
+}
